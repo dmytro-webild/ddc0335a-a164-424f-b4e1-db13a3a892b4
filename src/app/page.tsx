@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import { Scissors, Sparkles } from 'lucide-react';
@@ -28,7 +27,6 @@ export default function BarberHousePage() {
           brandName="The Barber House"
           navItems={[
             { name: "Služby", id: "services" },
-            { name: "O nás", id: "about" },
             { name: "Kontakt", id: "contact" }
           ]}
           button={{ text: "Rezervace", href: "#contact" }}
@@ -77,18 +75,6 @@ export default function BarberHousePage() {
         />
       </div>
 
-      <div id="about" data-section="about">
-        <InlineImageSplitTextAbout
-          heading={[
-            { type: "text", content: "Tradice řemesla se setkávají s moderní excelencí" },
-            { type: "image", src: "http://img.b2bpic.net/free-photo/male-hairdresser-combing-hair-elderly-client-barbershop_23-2148181912.jpg", alt: "Zruční holič The Barber House při práci" }
-          ]}
-          buttons={[{ text: "Zjistit více", href: "#contact" }]}
-          buttonAnimation="slide-up"
-          useInvertedBackground={true}
-        />
-      </div>
-
       <div id="contact" data-section="contact">
         <ContactText
           text="Jste připraveni zažít luxusní péči o vzhled? Rezervujte si svou schůzku ještě dnes nebo nám zavolejte. Naši holiči se těší na vaši návštěvu."
@@ -123,7 +109,6 @@ export default function BarberHousePage() {
             },
             {
               title: "Společnost",              items: [
-                { label: "O nás", href: "#about" },
                 { label: "Kontakt", href: "#contact" }
               ]
             },
