@@ -5,6 +5,7 @@ import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloating
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import { Scissors, Sparkles, Star } from 'lucide-react';
 
@@ -113,6 +114,35 @@ export default function BarberHousePage() {
         />
       </div>
 
+      <div id="contact" data-section="contact">
+        <ContactSplitForm
+          title="Kontaktujte nás"
+          description="Máte otázky? Rádi vám pomůžeme. Vyplňte formulář a my se vám brzy ozvu."
+          inputs={[
+            {
+              name: "name",              type: "text",              placeholder: "Vaše jméno",              required: true
+            },
+            {
+              name: "email",              type: "email",              placeholder: "Váš e-mail",              required: true
+            },
+            {
+              name: "phone",              type: "tel",              placeholder: "Vaše telefonní číslo",              required: false
+            }
+          ]}
+          textarea={{
+            name: "message",            placeholder: "Vaše zpráva",            rows: 5,
+            required: true
+          }}
+          useInvertedBackground={false}
+          mediaAnimation="slide-up"
+          mediaPosition="right"
+          buttonText="Odeslat"
+          onSubmit={(data) => {
+            console.log('Form submitted:', data);
+          }}
+        />
+      </div>
+
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           columns={[
@@ -135,7 +165,7 @@ export default function BarberHousePage() {
             {
               title: "Společnost",              items: [
                 { label: "Recenze", href: "#testimonials" },
-                { label: "Kontakt", href: "/contact" }
+                { label: "Kontakt", href: "#contact" }
               ]
             },
             {
