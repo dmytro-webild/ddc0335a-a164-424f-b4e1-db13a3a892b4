@@ -44,7 +44,7 @@ export default function BarberHousePage() {
           buttonAnimation="slide-up"
           kpis={[
             { value: "15+", label: "Let zkušeností" },
-            { value: "5000+", label: "Spokojených klientů" },
+            { value: "60+", label: "Spokojených klientů" },
             { value: "100%", label: "Doporučených služeb" }
           ]}
           enableKpiAnimation={true}
