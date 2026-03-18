@@ -81,30 +81,27 @@ export default function BarberHousePage() {
         <TestimonialCardSix
           testimonials={[
             {
-              id: "1",              name: "Nam Le-Hoang",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",              imageAlt: "Nam Le-Hoang",              rating: 5,
-              review: "Barbři se vyznají v práci! Naprostá spokojenost"
+              id: "1",              name: "Nam Le-Hoang",              handle: "@namlehoang",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",              imageAlt: "Nam Le-Hoang",              testimonial: "Barbři se vyznají v práci! Naprostá spokojenost"
             },
             {
-              id: "2",              name: "Radovan Jansa",              imageSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",              imageAlt: "Radovan Jansa",              rating: 5,
-              review: "Skvělé služby a haircut. Teď také výrazně rozšířili a zmodernizovali prostory holičství. Určitě doporučuji 👍💈✂️💇‍♂️"
+              id: "2",              name: "Radovan Jansa",              handle: "@radovanjansa",              imageSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",              imageAlt: "Radovan Jansa",              testimonial: "Skvělé služby a haircut. Teď také výrazně rozšířili a zmodernizovali prostory holičství. Určitě doporučuji 👍💈✂️💇‍♂️"
             },
             {
-              id: "3",              name: "Nam Trương",              imageSrc: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=400&fit=crop",              imageAlt: "Nam Trương",              rating: 5,
-              review: "Zkušení holiči. Vřele doporučuji."
+              id: "3",              name: "Nam Trương",              handle: "@namtruong",              imageSrc: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=400&fit=crop",              imageAlt: "Nam Trương",              testimonial: "Zkušení holiči. Vřele doporučuji."
             },
             {
-              id: "4",              name: "Danh Phạm",              imageSrc: "https://images.unsplash.com/photo-1522228115018-61b2f0398a1e?w=400&h=400&fit=crop",              imageAlt: "Danh Phạm",              rating: 5,
-              review: "Tento Barber shop je fantastické a holiči jsou zde velmi profesionální a pohlední."
+              id: "4",              name: "Danh Phạm",              handle: "@danhpham",              imageSrc: "https://images.unsplash.com/photo-1522228115018-61b2f0398a1e?w=400&h=400&fit=crop",              imageAlt: "Danh Phạm",              testimonial: "Tento Barber shop je fantastické a holiči jsou zde velmi profesionální a pohlední."
             },
             {
-              id: "5",              name: "Achala Fernando",              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",              imageAlt: "Achala Fernando",              rating: 5,
-              review: "Velmi dobrá obsluha! Vřele doporučuji..."
+              id: "5",              name: "Achala Fernando",              handle: "@achalafernando",              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",              imageAlt: "Achala Fernando",              testimonial: "Velmi dobrá obsluha! Vřele doporučuji..."
             }
           ]}
-          cardTitle="Co říkají naši klienti"
-          cardTag="OVĚŘENÉ RECENZE"
-          cardAnimation="slide-up"
+          animationType="slide-up"
+          title="Co říkají naši klienti"
+          tag="OVĚŘENÉ RECENZE"
+          textboxLayout="default"
           useInvertedBackground={false}
+          description=""
         />
       </div>
 
