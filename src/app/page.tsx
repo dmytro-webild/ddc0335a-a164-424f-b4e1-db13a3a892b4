@@ -6,7 +6,7 @@ import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Scissors, Sparkles, Star, TrendingUp, Users, Award } from 'lucide-react';
+import { Scissors, Sparkles, Star } from 'lucide-react';
 
 export default function BarberHousePage() {
   return (
@@ -46,9 +46,9 @@ export default function BarberHousePage() {
           ]}
           buttonAnimation="slide-up"
           kpis={[
-            { icon: Award, value: "15+", label: "Let zkušeností" },
-            { icon: Users, value: "5000+", label: "Spokojených klientů" },
-            { icon: TrendingUp, value: "100%", label: "Doporučených služeb" }
+            { value: "15+", label: "Let zkušeností" },
+            { value: "5000+", label: "Spokojených klientů" },
+            { value: "100%", label: "Doporučených služeb" }
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg"
           imageAlt="Interiér luxusního barbershopu The Barber House"
