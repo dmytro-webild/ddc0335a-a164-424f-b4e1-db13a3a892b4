@@ -5,7 +5,6 @@ import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloating
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import { Scissors, Sparkles, Star } from 'lucide-react';
 
@@ -28,10 +27,9 @@ export default function BarberHousePage() {
           brandName="The Barber House"
           navItems={[
             { name: "Služby", id: "services" },
-            { name: "Recenze", id: "testimonials" },
-            { name: "Kontakt", id: "contact" }
+            { name: "Recenze", id: "testimonials" }
           ]}
-          button={{ text: "Rezervace", href: "#contact" }}
+          button={{ text: "Rezervace", href: "#" }}
         />
       </div>
 
@@ -105,19 +103,6 @@ export default function BarberHousePage() {
         />
       </div>
 
-      <div id="contact" data-section="contact">
-        <ContactText
-          text="Jste připraveni zažít luxusní péči o vzhled? Rezervujte si svou schůzku ještě dnes nebo nám zavolejte. Naši holiči se těší na vaši návštěvu."
-          animationType="entrance-slide"
-          buttons={[
-            { text: "Rezervovat schůzku", href: "#" },
-            { text: "Zavolat: +420 XXX XXX XXX", href: "tel:+420" }
-          ]}
-          background={{ variant: "radial-gradient" }}
-          useInvertedBackground={true}
-        />
-      </div>
-
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           columns={[
@@ -139,16 +124,14 @@ export default function BarberHousePage() {
             },
             {
               title: "Společnost",              items: [
-                { label: "Recenze", href: "#testimonials" },
-                { label: "Kontakt", href: "#contact" }
+                { label: "Recenze", href: "#testimonials" }
               ]
             },
             {
               title: "Právní informace",              items: [
                 { label: "Zásady ochrany osobních údajů", href: "#" },
                 { label: "Podmínky služeb", href: "#" },
-                { label: "Podmínky rezervace", href: "#" },
-                { label: "Kontakt", href: "#contact" }
+                { label: "Podmínky rezervace", href: "#" }
               ]
             }
           ]}
