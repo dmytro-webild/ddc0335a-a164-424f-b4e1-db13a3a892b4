@@ -40,10 +40,7 @@ export default function BarberHousePage() {
           tag="LUXUSNÍ PÉČE O VZHLED"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
-          buttons={[
-            { text: "Rezervovat nyní", href: "#" },
-            { text: "Dozvědět se více", href: "#services" }
-          ]}
+          buttons={[]}
           buttonAnimation="slide-up"
           kpis={[
             { value: "15+", label: "Let zkušeností" },
