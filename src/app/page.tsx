@@ -27,7 +27,8 @@ export default function BarberHousePage() {
           brandName="The Barber House"
           navItems={[
             { name: "Služby", id: "services" },
-            { name: "Recenze", id: "testimonials" }
+            { name: "Recenze", id: "testimonials" },
+            { name: "Kontakt", id: "contact" }
           ]}
           button={{ text: "Rezervace", href: "#" }}
         />
@@ -133,7 +134,8 @@ export default function BarberHousePage() {
             },
             {
               title: "Společnost",              items: [
-                { label: "Recenze", href: "#testimonials" }
+                { label: "Recenze", href: "#testimonials" },
+                { label: "Kontakt", href: "/contact" }
               ]
             },
             {
