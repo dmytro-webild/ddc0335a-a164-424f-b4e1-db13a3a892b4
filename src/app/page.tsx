@@ -52,7 +52,7 @@ export default function BarberHousePage() {
           ]}
           mediaAnimation="slide-up"
           rating={5}
-          ratingText="Nejvíce doporučovaný barber shop v Praze"
+          ratingText=""
         />
       </div>
 
