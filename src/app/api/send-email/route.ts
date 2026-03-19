@@ -1,14 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
 
-// Configure your email service here
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASSWORD,
-  },
-});
+// Email service configuration disabled - nodemailer not installed
+// To enable email functionality, install nodemailer: npm install nodemailer
+const transporter = null;
 
 export async function POST(request: NextRequest) {
   try {
@@ -32,6 +26,9 @@ export async function POST(request: NextRequest) {
       text: emailBody,
     };
 
+    if (!transporter) {
+      throw new Error('Email service not configured');
+    }
     await transporter.sendMail(mailOptions);
 
     return NextResponse.json(
