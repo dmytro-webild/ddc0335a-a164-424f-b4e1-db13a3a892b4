@@ -31,7 +31,6 @@ export default function BarberHousePage() {
             { name: "Recenze", id: "testimonials" },
             { name: "Kontakt", id: "contact" }
           ]}
-          button={{ text: "Rezervace", href: "#" }}
         />
       </div>
 
