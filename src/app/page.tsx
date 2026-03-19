@@ -7,7 +7,7 @@ import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwent
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Scissors, Sparkles, Star } from 'lucide-react';
+import { Scissors } from 'lucide-react';
 
 export default function BarberHousePage() {
   return (
@@ -51,7 +51,7 @@ export default function BarberHousePage() {
             }
           ]}
           mediaAnimation="slide-up"
-          rating={5}
+          rating={0}
           ratingText=""
         />
       </div>
