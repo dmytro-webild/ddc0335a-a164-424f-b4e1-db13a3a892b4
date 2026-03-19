@@ -46,8 +46,7 @@ export default function ContactPage() {
         <NavbarLayoutFloatingInline
           brandName="The Barber House"
           navItems={[
-            { name: "Recenze", id: "testimonials" },
-            { name: "Kontakt", id: "contact" }
+            { name: "Recenze", id: "testimonials" }
           ]}
           button={{ text: "Rezervovat", href: "#contact" }}
         />
@@ -103,7 +102,7 @@ export default function ContactPage() {
             },
             {
               title: "Společnost",              items: [
-                { label: "Recenze", href: "/" },
+                { label: "Recenze", href: "#testimonials" },
                 { label: "Kontakt", href: "/contact" }
               ]
             },
