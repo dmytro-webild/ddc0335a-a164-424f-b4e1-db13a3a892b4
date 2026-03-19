@@ -39,15 +39,22 @@ export default function BarberHousePage() {
         <HeroSplitDualMedia
           title="Znovu objevte svou sebevědomost"
           description="Luxusní holič v Praze na Libušské 319 s odbornými střihy, holením na starobylý způsob a stylingem pro moderního gentlemana."
+          background={{ variant: "plain" }}
+          tag="PRÉMIOVÝ BARBER SHOP"
           buttons={[
             { text: "Rezervace", href: "#" }
           ]}
-          primaryMediaSrc="http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg"
-          primaryMediaAlt="Interiér luxusního barbershopu The Barber House"
-          secondaryMediaSrc="http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg?_wi=1"
-          secondaryMediaAlt="Profesionální holič poskytující odbornou službu střihu vlasů"
-          mediaPosition="right"
+          mediaItems={[
+            {
+              imageSrc: "http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg",              imageAlt: "Interiér luxusního barbershopu The Barber House"
+            },
+            {
+              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg?_wi=1",              imageAlt: "Profesionální holič poskytující odbornou službu střihu vlasů"
+            }
+          ]}
           mediaAnimation="slide-up"
+          rating={5}
+          ratingText="Nejvíce doporučovaný barber shop v Praze"
         />
       </div>
 
