@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
+import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
@@ -36,7 +36,7 @@ export default function BarberHousePage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroSplitKpi
+        <HeroBillboardScroll
           title="Znovu objevte svou sebevědomost"
           description="Luxusní holič v Praze na Libušské 319 — odborné střihy, holení na starobylý způsob a styling pro moderního gentlemana. Kontaktujte nás dnes pro zážitek zakořeněný v tradici a zdokonalený odborností."
           tag="LUXUSNÍ PÉČE O VZHLED"
@@ -44,12 +44,6 @@ export default function BarberHousePage() {
           tagAnimation="slide-up"
           buttons={[]}
           buttonAnimation="slide-up"
-          kpis={[
-            { value: "15+", label: "Let zkušeností" },
-            { value: "60+", label: "Spokojených klientů" },
-            { value: "100%", label: "Doporučených služeb" }
-          ]}
-          enableKpiAnimation={true}
           mediaAnimation="slide-up"
           imageSrc="http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg"
           imageAlt="Interiér luxusního barbershopu The Barber House"
