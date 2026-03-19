@@ -60,7 +60,7 @@ export default function BarberHousePage() {
 
       <div id="hero" data-section="hero">
         <HeroSplitDualMedia
-          title="Znovu objevte svou sebevědomost"
+          title="Tvůj styl. Naše práce."
           description="Luxusní holič v Praze na Libušské 319 s odbornými střihy, holením na starobylý způsob a stylingem pro moderního gentlemana."
           background={{ variant: "plain" }}
           tag="PRÉMIOVÝ BARBER SHOP"
