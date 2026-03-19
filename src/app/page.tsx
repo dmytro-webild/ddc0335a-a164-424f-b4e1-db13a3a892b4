@@ -116,7 +116,7 @@ export default function BarberHousePage() {
       <div id="contact" data-section="contact">
         <ContactSplitForm
           title="Kontaktujte nás"
-          description="Máte otázky? Rádi vám pomůžeme. Vyplňte formulář a my se vám brzy ozvu."
+          description="Máte otázky? Rádi vám pomůžeme. Vyplňte formulář a my se vám brzy ozveme."
           inputs={[
             {
               name: "name",              type: "text",              placeholder: "Vaše jméno",              required: true
