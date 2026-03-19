@@ -49,7 +49,7 @@ export default function ContactPage() {
             { name: "Recenze", id: "testimonials" },
             { name: "Kontakt", id: "contact" }
           ]}
-          button={{ text: "Get Started", href: "/", title: "773 858 868" }}
+          button={{ text: "Get Started", href: "/" }}
         />
       </div>
 
