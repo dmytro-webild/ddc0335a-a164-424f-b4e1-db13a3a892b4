@@ -60,7 +60,7 @@ export default function BarberHousePage() {
         <TestimonialCardSix
           testimonials={[
             {
-              id: "1",              name: "Nam Le-Hoang",              handle: "@namlehoang",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",              imageAlt: "Nam Le-Hoang",              testimonial: "Barbři se vyznají v práci! Naprostá spokojenost"
+              id: "1",              name: "Nam Le-Hoang",              handle: "@namlehoang",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773925606192-ozb9ewdk.png",              imageAlt: "Nam Le-Hoang",              testimonial: "Barbři se vyznají v práci! Naprostá spokojenost"
             },
             {
               id: "2",              name: "Radovan Jansa",              handle: "@radovanjansa",              imageSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",              imageAlt: "Radovan Jansa",              testimonial: "Skvělé služby a haircut. Teď také výrazně rozšířili a zmodernizovali prostory holičství. Určitě doporučuji 👍💈✂️💇‍♂️"
