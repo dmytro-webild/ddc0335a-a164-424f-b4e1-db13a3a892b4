@@ -44,7 +44,7 @@ export default function BarberHousePage() {
           buttons={[]}
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg",              imageAlt: "Interiér luxusního barbershopu The Barber House"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Interiér luxusního barbershopu The Barber House"
             },
             {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg",              imageAlt: "Profesionální holič poskytující odbornou službu střihu vlasů"
@@ -133,7 +133,7 @@ export default function BarberHousePage() {
             required: true
           }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=2"
           imageAlt="Interiér luxusního barbershopu The Barber House"
           mediaAnimation="slide-up"
           mediaPosition="right"
