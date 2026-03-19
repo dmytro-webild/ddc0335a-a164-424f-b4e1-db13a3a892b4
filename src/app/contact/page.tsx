@@ -49,7 +49,6 @@ export default function ContactPage() {
             { name: "Recenze", id: "testimonials" },
             { name: "Kontakt", id: "contact" }
           ]}
-          button={{ text: "Rezervovat", href: "#contact" }}
         />
       </div>
 
