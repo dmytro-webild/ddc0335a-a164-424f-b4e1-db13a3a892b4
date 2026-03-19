@@ -47,7 +47,6 @@ export default function ContactPage() {
           brandName="The Barber House"
           navItems={[
             { name: "Recenze", id: "testimonials" },
-            { name: "Galerie", id: "gallery" },
             { name: "Kontakt", id: "contact" }
           ]}
           button={{ text: "Rezervovat", href: "#contact" }}
@@ -105,7 +104,6 @@ export default function ContactPage() {
             {
               title: "Společnost",              items: [
                 { label: "Recenze", href: "/" },
-                { label: "Galerie", href: "/" },
                 { label: "Kontakt", href: "/contact" }
               ]
             },
