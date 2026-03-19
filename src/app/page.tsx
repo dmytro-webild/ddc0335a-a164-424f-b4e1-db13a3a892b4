@@ -10,6 +10,29 @@ import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import { Scissors } from 'lucide-react';
 
 export default function BarberHousePage() {
+  const handleContactSubmit = (data: Record<string, string>) => {
+    // Send form data to the specified email
+    fetch('/api/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        to: 'neco00517@gmail.com',
+        subject: 'New Contact Form Submission',
+        data: data,
+      }),
+    }).then(response => {
+      if (response.ok) {
+        console.log('Email sent successfully');
+      } else {
+        console.error('Failed to send email');
+      }
+    }).catch(error => {
+      console.error('Error sending email:', error);
+    });
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="text-shift"
@@ -138,9 +161,7 @@ export default function BarberHousePage() {
           mediaAnimation="slide-up"
           mediaPosition="right"
           buttonText="Odeslat"
-          onSubmit={(data) => {
-            console.log('Form submitted:', data);
-          }}
+          onSubmit={handleContactSubmit}
         />
       </div>
 
