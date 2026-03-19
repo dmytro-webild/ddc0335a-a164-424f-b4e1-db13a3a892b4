@@ -69,7 +69,7 @@ export default function BarberHousePage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Interiér luxusního barbershopu The Barber House"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg",              imageAlt: "Profesionální holič poskytující odbornou službu střihu vlasů"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg?_wi=1",              imageAlt: "Profesionální holič poskytující odbornou službu střihu vlasů"
             }
           ]}
           mediaAnimation="slide-up"
@@ -115,11 +115,11 @@ export default function BarberHousePage() {
             },
             {
               id: "2",              brand: "Služby",              name: "Holení na starobylý způsob",              price: "Od 250 Kč",              rating: 5,
-              reviewCount: "96",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg",              imageAlt: "Tradiční holení v The Barber House"
+              reviewCount: "96",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg?_wi=2",              imageAlt: "Tradiční holení v The Barber House"
             },
             {
               id: "3",              brand: "Služby",              name: "Styling a péče",              price: "Od 200 Kč",              rating: 5,
-              reviewCount: "84",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg",              imageAlt: "Profesionální styling v The Barber House"
+              reviewCount: "84",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg?_wi=1",              imageAlt: "Profesionální styling v The Barber House"
             },
             {
               id: "4",              brand: "Služby",              name: "Členské balíčky",              price: "Od 1500 Kč",              rating: 5,
@@ -156,7 +156,7 @@ export default function BarberHousePage() {
             required: true
           }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg?_wi=2"
           imageAlt="Interiér luxusního barbershopu The Barber House"
           mediaAnimation="slide-up"
           mediaPosition="right"
