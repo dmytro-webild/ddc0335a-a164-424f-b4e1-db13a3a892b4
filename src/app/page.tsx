@@ -110,16 +110,16 @@ export default function BarberHousePage() {
         <ProductCardOne
           products={[
             {
-              id: "1",              name: "Střih vlasů",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Profesionální střih vlasů v The Barber House"
+              id: "1",              name: "Střih vlasů",              price: "300 Kč",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Profesionální střih vlasů v The Barber House"
             },
             {
-              id: "2",              name: "Holení na starobylý způsob",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg?_wi=2",              imageAlt: "Tradiční holení v The Barber House"
+              id: "2",              name: "Holení na starobylý způsob",              price: "250 Kč",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg?_wi=2",              imageAlt: "Tradiční holení v The Barber House"
             },
             {
-              id: "3",              name: "Styling a péče",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg?_wi=1",              imageAlt: "Profesionální styling v The Barber House"
+              id: "3",              name: "Styling a péče",              price: "200 Kč",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg?_wi=1",              imageAlt: "Profesionální styling v The Barber House"
             },
             {
-              id: "4",              name: "Členské balíčky",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Členské balíčky v The Barber House"
+              id: "4",              name: "Členské balíčky",              price: "1500 Kč/měsíc",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Členské balíčky v The Barber House"
             }
           ]}
           gridVariant="four-items-2x2-equal-grid"
