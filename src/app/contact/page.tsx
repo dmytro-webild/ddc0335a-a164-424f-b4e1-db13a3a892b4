@@ -46,7 +46,6 @@ export default function ContactPage() {
         <NavbarLayoutFloatingInline
           brandName="The Barber House"
           navItems={[
-            { name: "Služby", id: "services" },
             { name: "Recenze", id: "testimonials" },
             { name: "Kontakt", id: "contact" }
           ]}

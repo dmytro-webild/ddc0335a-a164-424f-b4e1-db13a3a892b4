@@ -3,11 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
-import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Scissors } from 'lucide-react';
 
 export default function BarberHousePage() {
   const handleContactSubmit = (data: Record<string, string>) => {
@@ -50,7 +48,6 @@ export default function BarberHousePage() {
         <NavbarLayoutFloatingInline
           brandName="The Barber House"
           navItems={[
-            { name: "Služby", id: "services" },
             { name: "Recenze", id: "testimonials" },
             { name: "Kontakt", id: "contact" }
           ]}
@@ -107,35 +104,6 @@ export default function BarberHousePage() {
         />
       </div>
 
-      <div id="services" data-section="services">
-        <FeatureCardTwentyOne
-          title="Odborně vytvářené služby"
-          description="Každá služba je navržena tak, aby zvýšila vaši péči o vzhled a sebevědomost. Naši holič kombinují tradiční techniky s moderní odborností, aby dosáhli výjimečných výsledků."
-          tag="PRÉMIOVÉ SLUŽBY"
-          tagIcon={Scissors}
-          tagAnimation="slide-up"
-          accordionItems={[
-            {
-              id: "haircut",              title: "Profesionální střihy",              content: "Odborné střihy přizpůsobené vašemu stylu a tvaru obličeje. Pomocí precizních technik vylepšených léty zkušeností poskytujeme ostré linie a dokonalé přechody. 45 minut. 35–50 €."
-            },
-            {
-              id: "shave",              title: "Holení na starobylý způsob",              content: "Tradiční luxusní zážitek s prémiovými produkty. Příprava teplým ručníkem, odborné namydlení a přesná technika holení na starobylý způsob pro nejhladší holení. Včetně balzámu po holení. 30 minut. 40–55 €."
-            },
-            {
-              id: "styling",              title: "Styling a péče o vzhled",              content: "Konzultativní přístup ke styling vlasů, doporučení produktů a rutiny péče o vzhled. Naučte se profesionální tipy a objevte produkty, které vhodně fungují pro vaše vlasy. 30 minut. 30–40 €."
-            },
-            {
-              id: "packages",              title: "Členské balíčky",              content: "Exkluzivní výhody včetně prioritního rezervování, 10% slevy na služby, bezplatné vzorky produktů a přístup do VIP salónu. Dostupné měsíční a čtvrtletní možnosti."
-            }
-          ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-shdwufe1.jpg"
-          imageAlt="Profesionální holič poskytující odbornou službu střihu vlasů"
-          mediaAnimation="slide-up"
-          useInvertedBackground={false}
-          mediaPosition="right"
-        />
-      </div>
-
       <div id="contact" data-section="contact">
         <ContactSplitForm
           title="Kontaktujte nás"
@@ -178,10 +146,10 @@ export default function BarberHousePage() {
             },
             {
               title: "Služby",              items: [
-                { label: "Střihy", href: "#services" },
-                { label: "Holení na starobylý způsob", href: "#services" },
-                { label: "Styling a péče", href: "#services" },
-                { label: "Členské balíčky", href: "#services" }
+                { label: "Střihy", href: "/" },
+                { label: "Holení na starobylý způsob", href: "/" },
+                { label: "Styling a péče", href: "/" },
+                { label: "Členské balíčky", href: "/" }
               ]
             },
             {
