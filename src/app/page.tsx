@@ -44,7 +44,6 @@ export default function BarberHousePage() {
           tagAnimation="slide-up"
           buttons={[]}
           buttonAnimation="slide-up"
-          mediaAnimation="slide-up"
           imageSrc="http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg"
           imageAlt="Interiér luxusního barbershopu The Barber House"
           background={{ variant: "gradient-bars" }}
