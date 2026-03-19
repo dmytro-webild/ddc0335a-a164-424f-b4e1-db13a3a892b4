@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
+import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
@@ -36,22 +36,18 @@ export default function BarberHousePage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroCarouselLogo
-          logoText="The Barber House"
-          description="Znovu objevte svou sebevědomost — luxusní holič v Praze na Libušské 319 s odbornými střihy, holením na starobylý způsob a stylingem pro moderního gentlemana."
+        <HeroSplitDualMedia
+          title="Znovu objevte svou sebevědomost"
+          description="Luxusní holič v Praze na Libušské 319 s odbornými střihy, holením na starobylý způsob a stylingem pro moderního gentlemana."
           buttons={[
             { text: "Rezervace", href: "#" }
           ]}
-          slides={[
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg",              imageAlt: "Interiér luxusního barbershopu The Barber House"
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg?_wi=1",              imageAlt: "Profesionální holič poskytující odbornou službu střihu vlasů"
-            }
-          ]}
-          autoplayDelay={3000}
-          showDimOverlay={false}
+          primaryMediaSrc="http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg"
+          primaryMediaAlt="Interiér luxusního barbershopu The Barber House"
+          secondaryMediaSrc="http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg?_wi=1"
+          secondaryMediaAlt="Profesionální holič poskytující odbornou službu střihu vlasů"
+          mediaPosition="right"
+          mediaAnimation="slide-up"
         />
       </div>
 
