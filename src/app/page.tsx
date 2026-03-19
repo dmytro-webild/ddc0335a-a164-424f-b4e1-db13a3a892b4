@@ -48,7 +48,8 @@ export default function BarberHousePage() {
         <NavbarLayoutFloatingInline
           brandName="The Barber House"
           navItems={[
-            { name: "Recenze", id: "testimonials" }
+            { name: "Recenze", id: "testimonials" },
+            { name: "Kontakt", id: "contact" }
           ]}
           button={{ text: "Rezervovat", href: "#contact" }}
         />
