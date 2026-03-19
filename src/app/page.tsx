@@ -47,7 +47,7 @@ export default function BarberHousePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/handsome-stylish-bearded-male-with-tattoo-arm-dressed-flannel-shirt-holding-juice-while-getting-haircut_613910-5727.jpg",              imageAlt: "Interiér luxusního barbershopu The Barber House"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg",              imageAlt: "Profesionální holič poskytující odbornou službu střihu vlasů"
+              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg?_wi=1",              imageAlt: "Profesionální holič poskytující odbornou službu střihu vlasů"
             }
           ]}
           autoplayDelay={3000}
@@ -76,7 +76,7 @@ export default function BarberHousePage() {
               id: "packages",              title: "Členské balíčky",              content: "Exkluzivní výhody včetně prioritního rezervování, 10% slevy na služby, bezplatné vzorky produktů a přístup do VIP salónu. Dostupné měsíční a čtvrtletní možnosti."
             }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/full-shot-man-getting-haircut_23-2149220553.jpg?_wi=2"
           imageAlt="Profesionální holič poskytující odbornou službu střihu vlasů"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
