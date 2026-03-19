@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
+import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
@@ -107,23 +107,19 @@ export default function BarberHousePage() {
       </div>
 
       <div id="gallery" data-section="gallery">
-        <ProductCardTwo
+        <ProductCardOne
           products={[
             {
-              id: "1",              brand: "Služby",              name: "Střih vlasů",              price: "Od 350 Kč",              rating: 5,
-              reviewCount: "128",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Profesionální střih vlasů v The Barber House"
+              id: "1",              name: "Střih vlasů",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Profesionální střih vlasů v The Barber House"
             },
             {
-              id: "2",              brand: "Služby",              name: "Holení na starobylý způsob",              price: "Od 250 Kč",              rating: 5,
-              reviewCount: "96",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg?_wi=2",              imageAlt: "Tradiční holení v The Barber House"
+              id: "2",              name: "Holení na starobylý způsob",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg?_wi=2",              imageAlt: "Tradiční holení v The Barber House"
             },
             {
-              id: "3",              brand: "Služby",              name: "Styling a péče",              price: "Od 200 Kč",              rating: 5,
-              reviewCount: "84",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg?_wi=1",              imageAlt: "Profesionální styling v The Barber House"
+              id: "3",              name: "Styling a péče",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg?_wi=1",              imageAlt: "Profesionální styling v The Barber House"
             },
             {
-              id: "4",              brand: "Služby",              name: "Členské balíčky",              price: "Od 1500 Kč",              rating: 5,
-              reviewCount: "72",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Členské balíčky v The Barber House"
+              id: "4",              name: "Členské balíčky",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Členské balíčky v The Barber House"
             }
           ]}
           gridVariant="four-items-2x2-equal-grid"
