@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
+import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
@@ -49,6 +50,7 @@ export default function BarberHousePage() {
           brandName="The Barber House"
           navItems={[
             { name: "Recenze", id: "testimonials" },
+            { name: "Galerie", id: "gallery" },
             { name: "Kontakt", id: "contact" }
           ]}
           button={{ text: "Rezervovat", href: "#contact" }}
@@ -83,7 +85,7 @@ export default function BarberHousePage() {
               id: "1",              name: "Nam Le-Hoang",              handle: "@namlehoang",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773925606192-ozb9ewdk.png",              imageAlt: "Nam Le-Hoang",              testimonial: "Barbři se vyznají v práci! Naprostá spokojenost"
             },
             {
-              id: "2",              name: "Radovan Jansa",              handle: "@radovanjansa",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773925719532-rkm6swdp.png",              imageAlt: "Radovan Jansa",              testimonial: "Skvělé služby a haircut. Teď také výrazně rozšířili a zmodernizovali prostory holičství. Určitě doporučuji 👍💈✂️💇‍♂️"
+              id: "2",              name: "Radovan Jansa",              handle: "@radovanjansa",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773925719532-rkm6swdp.png",              imageAlt: "Radovan Jansa",              testimonial: "Skvělé služby a haircut. Teď také výrazně rozšířili a zmodernizovali prostory holichství. Určitě doporučuji 👍💈✂️💇‍♂️"
             },
             {
               id: "3",              name: "Nam Trương",              handle: "@namtruong",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773925810852-e8nmddb3.png",              imageAlt: "Nam Trương",              testimonial: "Zkušení holiči. Vřele doporučuji."
@@ -101,6 +103,36 @@ export default function BarberHousePage() {
           textboxLayout="default"
           useInvertedBackground={false}
           description=""
+        />
+      </div>
+
+      <div id="gallery" data-section="gallery">
+        <ProductCardTwo
+          products={[
+            {
+              id: "1",              brand: "Služby",              name: "Střih vlasů",              price: "Od 350 Kč",              rating: 5,
+              reviewCount: "128",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Profesionální střih vlasů v The Barber House"
+            },
+            {
+              id: "2",              brand: "Služby",              name: "Holení na starobylý způsob",              price: "Od 250 Kč",              rating: 5,
+              reviewCount: "96",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-blyzax49.jpg",              imageAlt: "Tradiční holení v The Barber House"
+            },
+            {
+              id: "3",              brand: "Služby",              name: "Styling a péče",              price: "Od 200 Kč",              rating: 5,
+              reviewCount: "84",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg",              imageAlt: "Profesionální styling v The Barber House"
+            },
+            {
+              id: "4",              brand: "Služby",              name: "Členské balíčky",              price: "Od 1500 Kč",              rating: 5,
+              reviewCount: "72",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=1",              imageAlt: "Členské balíčky v The Barber House"
+            }
+          ]}
+          gridVariant="four-items-2x2-equal-grid"
+          animationType="slide-up"
+          title="Naše služby a galerie"
+          description="Podívejte se na naši nabídku prémiových služeb a interiér našeho luxusního barbershopu."
+          tag="GALERIE"
+          textboxLayout="default"
+          useInvertedBackground={false}
         />
       </div>
 
@@ -155,6 +187,7 @@ export default function BarberHousePage() {
             {
               title: "Společnost",              items: [
                 { label: "Recenze", href: "#testimonials" },
+                { label: "Galerie", href: "#gallery" },
                 { label: "Kontakt", href: "#contact" }
               ]
             },
