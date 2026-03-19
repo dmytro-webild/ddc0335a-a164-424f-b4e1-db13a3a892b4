@@ -133,7 +133,7 @@ export default function BarberHousePage() {
             required: true
           }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-6h7xk70d.jpg?_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773928698484-5qxd7iwr.jpg"
           imageAlt="Interiér luxusního barbershopu The Barber House"
           mediaAnimation="slide-up"
           mediaPosition="right"
