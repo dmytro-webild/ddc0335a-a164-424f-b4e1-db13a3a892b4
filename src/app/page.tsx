@@ -52,7 +52,7 @@ export default function BarberHousePage() {
             { name: "Recenze", id: "testimonials" },
             { name: "Kontakt", id: "contact" }
           ]}
-          button={{ text: "Rezervovat", href: "#contact" }}
+          button={{ text: "773 858 868", href: "tel:+420773858868" }}
         />
       </div>
 
