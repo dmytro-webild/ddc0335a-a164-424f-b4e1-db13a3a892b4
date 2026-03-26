@@ -10,7 +10,6 @@ import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
 export default function BarberHousePage() {
   const handleContactSubmit = (data: Record<string, string>) => {
-    // Send form data to the specified email
     fetch('/api/send-email', {
       method: 'POST',
       headers: {
