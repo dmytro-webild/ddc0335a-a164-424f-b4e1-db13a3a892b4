@@ -9,8 +9,8 @@ import { Open_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'The Barber House Prague's Barbershop',
-  description: 'Prague\'s premier luxury barbershop offering expert haircuts, straight-razor shaves, and professional styling. Book online at Libušská 319.',
+  title: 'The Barber House Prague | Luxury Men's Barbershop's Barbershop',
+  description: 'Prémiový barbershop v Libušská 319.'s premier luxury barbershop offering expert haircuts, straight-razor shaves, and professional styling. Book online at Libušská 319.',
 };
 
 const openSans = Open_Sans({
